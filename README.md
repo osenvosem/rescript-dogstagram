@@ -1,6 +1,6 @@
 # Example ReScript/React application
 
-Features:
+What's inside:
 
 - work with components
 - work with hooks
