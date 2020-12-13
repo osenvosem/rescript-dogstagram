@@ -1,0 +1,19 @@
+{
+  "$schema": "https://raw.githubusercontent.com/rescript-lang/rescript-compiler/master/docs/docson/build-schema.json",
+  "name": "dogstagram",
+  "version": "0.0.1",
+  "reason": { "react-jsx": 3 },
+  "sources": {
+    "dir": "src",
+    "subdirs": true
+  },
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "bs-dependencies": ["reason-react", "bs-fetch", "@glennsl/bs-json"],
+  "warnings": {
+    "error": "+101"
+  }
+}
